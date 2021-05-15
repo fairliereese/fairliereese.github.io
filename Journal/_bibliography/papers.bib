@@ -2,11 +2,82 @@
   abbr={RNA},
   year={2019},
   month={09},
+  day={25},
   author={Movassat, Maliheh and Forouzmand, Elmira and Reese, Fairlie and Hertel, Klemens J},
   keywords = {Exon Conservation, Phylogenetics, Splicing, Alternative Splicing, SNPs},
   title={{Exon Size and Sequence Conservation Improves Identification of Splice Altering Nucleotides}},
   abstract={Pre-mRNA splicing is regulated through multiple trans-acting splicing factors. These regulators interact with the pre-mRNA at intronic and exonic positions. Given that most exons are protein coding, the evolution of exons must be modulated by a combination of selective coding and splicing pressures. It has previously been demonstrated that selective splicing pressures are more easily deconvoluted when phylogenetic comparisons are made for exons of identical size, suggesting that exon size-filtered sequence alignments may improve identification of nucleotides evolved to mediate efficient exon ligation. To test this hypothesis, an exon size database was created, filtering 76 vertebrate sequence alignments based on exon size conservation. In addition to other genomic parameters, such as splice site strength, gene position or flanking intron length, this database permits identification of exons that are size and/or sequence conserved. Highly size-conserved exons are always sequence conserved. However, sequence conservation does not necessitate exon size conservation. Our analysis identified evolutionarily young exons and demonstrated that length conservation is a strong predictor of alternative splicing. A published dataset of ~5000 exonic SNPs associated with disease was analyzed to test the hypothesis that exon size-filtered sequence comparisons increase detection of splice-altering nucleotides. Improved splice predictions could be achieved when mutations occur at the third codon position, especially when a mutation decreases exon inclusion efficiency. The results demonstrate that coding pressures dominate nucleotide composition at invariable codon positions and that exon-size filtered sequence alignments permit identification of splice-altering nucleotides at wobble positions.},
   url={https://doi.org/10.1261/rna.070987.119},
   html={https://doi.org/10.1261/rna.070987.119},
-  pdf={exon_cons_2019.pdf}
+  pdf={exon_cons_2019.pdf},
+  doi={10.1261/rna.070987.119}
 }
+
+@article{doi.org/10.1093/bioinformatics/btaa836,
+  abbr={Bioinformatics},
+  year={2020},
+  month={09},
+  day={29},
+  author={Reese, Fairlie and Mortazavi, Ali},
+  keywords = {long-read, RNA-seq, transcriptome, python, visualization, software},
+  title={{Swan: a library for the analysis and visualization of long-read transcriptomes}},
+  abstract={Motivation
+    Long-read RNA-sequencing technologies such as PacBio and Oxford Nanopore have discovered an explosion of new transcript isoforms that are difficult to visually analyze using currently available tools. We introduce the Swan Python library, which is designed to analyze and visualize transcript models.
+
+    Results
+    Swan finds 4909 differentially expressed transcripts between cell lines HepG2 and HFFc6, including 279 that are differentially expressed even though the parent gene is not. Additionally, Swan discovers 285 reproducible exon skipping and 47 intron retention events not recorded in the GENCODE v29 annotation.
+
+    Availability and implementation
+    The Swan library for Python 3 is available on PyPi at https://pypi.org/project/swan-vis/ and on GitHub at https://github.com/mortazavilab/swan_vis.},
+  url={https://doi.org/10.1093/bioinformatics/btaa836},
+  html={https://doi.org/10.1093/bioinformatics/btaa836},
+  pdf={swan_2020.pdf},
+  doi={10.1093/bioinformatics/btaa836}
+}
+
+@article{doi.org/10.1101/672931,
+  abbr={In review},
+  year={2020},
+  month={03},
+  day={24},
+  author={Wyman, Dana* and Balderrama-Gutierrez, Gabriela*, and Reese, Fairlie*, and Jiang, Shan and Rahmanian, Sorena, and Forner, Stefania, and Matheos, Dina, and Zend, Weihua, and Williams, Brian, and Trout, Diane, and England, Whitney, and Chu, Shu-Hui, and Spitale, Robert C., and Tenner, Andrea J., and Wold, Barbara J., and Mortazavi, Ali},
+  keywords={long-read, RNA-seq, software, annotation},
+  title={A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification},
+  abstract={Alternative splicing is widely acknowledged to be a crucial regulator of gene expression and is a key contributor to both normal developmental processes and disease states. While cost-effective and accurate for quantification, short-read RNA-seq lacks the ability to resolve full-length transcript isoforms despite increasingly sophisticated computational methods. Long-read sequencing platforms such as Pacific Biosciences (PacBio) and Oxford Nanopore (ONT) bypass the transcript reconstruction challenges of short reads. Here we introduce TALON, the ENCODE4 pipeline for platform-independent analysis of long-read transcriptomes. We apply TALON to the GM12878 cell line and show that while both PacBio and ONT technologies perform well at full-transcript discovery and quantification, each displayed distinct technical artifacts. We further apply TALON to mouse hippocampus and cortex transcriptomes and find that 422 genes found in these regions have more reads associated with novel isoforms than with annotated ones. We demonstrate that TALON is a capable of tracking both known and novel transcript models as well as their expression levels across datasets for both simple studies and in larger projects. These properties will enable TALON users to move beyond the limitations of short-read data to perform isoform discovery and quantification in a uniform manner on existing and future long-read platforms.},
+  url={https://doi.org/10.1101/672931},
+  html={https://doi.org/10.1101/672931},
+  supp={talon_supp_2020.pdf},
+  pdf={talon_2020.pdf},
+  doi={doi.org/10.1101/672931}
+  }
+
+  @article{doi.org/10.1101/2021.04.26.441522,
+  abbr={In review},
+  year={2021},
+  month={04},
+  day={26},
+  author={Rebboah, Elisabeth* and Reese, Fairlie*, and Williams, Katherine, and Balderrama-Gutierrez, Gabriela, and McGill, Cassandra, and Trout, Diane, and Rodriguez, Isaryhia, and Liang, Heidi, and Wold, Barbara J., and Mortazavi, Ali},
+  keywords={long-read, single-cell, RNA-seq, multiomics, snATAC-seq, scRNA-seq, LR-Split-seq, Split-seq, C2C12, myogenesis, muscle},
+  title={Mapping and modeling the genomic basis of differential RNA isoform expression at single-cell resolution with LR-Split-seq},
+  abstract={Alternative RNA isoforms are defined by promoter choice, alternative splicing, and polyA site selection. Although differential isoform expression is known to play a large regulatory role in eukaryotes, it has proved challenging to study with standard short-read RNA-seq because of the uncertainties it leaves about the full-length structure and precise termini of transcripts. The rise in throughput and quality of long-read sequencing now makes it possible, in principle, to unambiguously identify most transcript isoforms from beginning to end. However, its application to single-cell RNA-seq has been limited by throughput and expense. Here, we develop and characterize long-read Split-seq (LR-Split-seq), which uses a combinatorial barcoding-based method for sequencing single cells and nuclei with long reads. We show that LR-Split-seq can associate isoforms with cell types with relative economy and design flexibility. We characterize LR-Split-seq for whole cells and nuclei by using the well-studied mouse C2C12 system in which mononucleated myoblast cells differentiate and fuse into multinucleated myotubes. We show that the overall results are reproducible when comparing long- and short-read data from the same cell or nucleus. We find substantial evidence of differential isoform expression during differentiation including alternative transcription start site (TSS) usage. We integrate the resulting isoform expression dynamics with snATAC-seq chromatin accessibility to validate TSS-driven isoform choices. LR-Split-seq provides an affordable method for identifying cluster-specific isoforms in single cells that can be further quantified with companion deep short-read scRNA-seq from the same cell populations.},
+  url={https://doi.org/10.1101/2021.04.26.441522},
+  html={https://doi.org/10.1101/2021.04.26.441522},
+  doi={doi.org/10.1101/2021.04.26.441522},
+  pdf={lr_split_seq_2021.pdf},
+  supp={lr_split_seq_supp_2021.pdf}
+}
+
+@article{doi.org/10.1101/2021.05.12.443890,
+  abbr={In review},
+  year={2021},
+  month={05},
+  day={12},
+  author={Moore, Jill E., and Zhang, Xiao-Ou, and Elhajjajy, Shaimae I., and Fan, Kaili, and Reese, Fairlie, and Mortazavi, Ali, and Weng, Zhiping},
+  keywords={RNA-seq, RAMPAGE, promoter, TSS, transcription start site},
+  title={A catalog of transcription start sites across 115 human tissue and cell types},
+  abstract={Accurate transcription start site (TSS) annotations are essential for understanding transcriptional regulation and its role in human disease. Gene collections such as GENCODE contain annotations for tens of thousands of TSSs, but not all of these annotations are experimentally validated nor do they contain information on cell type-specific usage. Therefore, we sought to generate a collection of experimentally validated TSSs by integrating RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression (RAMPAGE) data from 115 cell and tissue types, which resulted in a collection of approximately 50 thousand representative RAMPAGE peaks. These peaks were primarily proximal to GENCODE-annotated TSSs and were concordant with other transcription assays. Because RAMPAGE uses paired-end reads, we were then able to connect peaks to transcripts by analyzing the genomic positions of the 3’ ends of read mates. Using this paired-end information, we classified the vast majority (37 thousand) of our RAMPAGE peaks as verified TSSs, updating TSS annotations for 20% of GENCODE genes. We also found that these updated TSS annotations were supported by epigenomic and other transcriptomic datasets. To demonstrate the utility of this RAMPAGE rPeak collection, we intersected it with the NHGRI/EBI GWAS catalog and identified new candidate GWAS genes. Overall, our work demonstrates the importance of integrating experimental data to further refine TSS annotations and provides a valuable resource for the biological community.},
+  url={https://doi.org/10.1101/2021.05.12.443890},
+  html={https://doi.org/10.1101/2021.05.12.443890},
+  doi={doi.org/10.1101/2021.05.12.443890},
+  pdf={tss_2021.pdf}
+  }
