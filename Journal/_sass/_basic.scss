@@ -72,6 +72,29 @@ h2, .h2 {
 	}
 }
 
+// TODO how to center text?
+// TODO how to add more spacing above?
+h2-centered, .h2-centered {
+	margin-top: 40px;
+	text-align: center;
+	font-size: $h2-small;
+	font-weight: $h2-weight;
+	line-height: $h2-lineheight;
+	letter-spacing: $h2-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h2-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h2-large;
+	}
+
+	a {
+		font-weight: $h2-weight;
+	}
+}
+
 h3, .h3 {
 	margin-top: 40px;
 	font-size: $h3-small;

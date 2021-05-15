@@ -4,6 +4,7 @@ subtitle: 'A Python library for full-length transcriptome visualization and anal
 date: 2020-09-29 00:00:00
 featured_image: '/images/img/swan_horizontal_logo.png'
 sidebar_image: '/images/img/swan_vertical_logo.png'
+type: software
 ---
 ![](/images/img/swan_gene_summary.png)
 
