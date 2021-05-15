@@ -2,8 +2,8 @@ enable_google_analytics: true
 
 basic_settings:
   site_title: Fairlie Reese
-  site_tagline: Bioinformatic analysis · Bioinformatics software/pipeline development
-  favicon_image: /images/favicon.png
+  site_tagline: Bioinformatic analysis · Bioinformatics software/pipeline development · Isoform expression
+  favicon_image: /images/img/favicon.png
 
 header_settings:
   logo_image:
@@ -20,8 +20,8 @@ menu_settings:
       url: '/publications/'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+    # - title: 'Contact'
+    #   url: '/contact'
 
 grid_settings:
   grid_spacing: 10
