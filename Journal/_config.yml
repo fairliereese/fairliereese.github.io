@@ -1,7 +1,21 @@
 site: Journal Jekyll Theme
 
-url: 
-baseurl: 
+url:
+baseurl:
+
+scholar:
+  last_name: Reese
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography # todo
+  details_layout: bibtex.html # todo
+  details_link: Details
+  query: "@*"
 
 collections:
   pages:
@@ -44,14 +58,14 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll/scholar
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-  

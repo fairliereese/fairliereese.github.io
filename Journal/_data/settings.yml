@@ -1,3 +1,5 @@
+enable_google_analytics: true
+
 basic_settings:
   site_title: Fairlie Reese
   site_tagline: Bioinformatic analysis · Bioinformatics software/pipeline development
@@ -14,6 +16,8 @@ menu_settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
+    - title: 'Publications'
+      url: '/publications/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
@@ -32,30 +36,7 @@ social_settings:
   github_url: 'https://github.com/fairliereese'
   orcid_url: 'https://orcid.org/0000-0002-9240-0102'
   scholar_url: 'https://scholar.google.com/citations?user=SgA5IcgAAAAJ&hl=en'
-  facebook_url: ''
   twitter_url: 'https://twitter.com/FairlieReese'
-  instagram_url: ''
-  snapchat_url: ''
-  youtube_url: ''
-  google-plus_url: ''
-  vimeo_url: ''
-  pinterest_url: ''
-  medium_url: ''
-  quora_url: ''
-  amazon_url: ''
-  apple_url: ''
-  android_url: ''
-  tumblr_url: ''
-  dribbble_url: ''
-  behance_url: ''
-  deviantart_url: ''
-  reddit_url: ''
-  flickr_url: ''
-  etsy_url: ''
-  kickstarter_url: ''
-  soundcloud_url: ''
-  spotify_url: ''
-  bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/fairlie-reese-a930a5b7/'
 
 color_settings:
