@@ -6,7 +6,9 @@ featured_image: '/images/img/encode.jpeg'
 sidebar_image: '/images/img/encode.jpeg'
 type: consortia
 ---
-![](/images/img/encode_teaching.png)
+<!-- ![](/images/img/encode_teaching.png) -->
+<center><img src="/images/img/encode_teaching.png" width="600"/></center>
+
 
 ENCODE, or the Encyclopedia of DNA elements, is a consortium interested in characterizing human and mouse genomes. As part of this consortium, I am responsible for data processing and coordination of all the long-read RNA-seq data produced in my lab.
 

@@ -60,7 +60,7 @@
 
 .portfolio-item__image {
 	display: block;
-	width: 100%;
+	width: 100%; // TODO is there a way I can modify this to make the pictures not so beeg
 	height: 0;
 	padding-bottom: 56.25%; // TODO could maybe get this to fix padding issue?
 	background-size: cover;
