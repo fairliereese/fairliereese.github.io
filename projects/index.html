@@ -1,0 +1,99 @@
+---
+layout: default
+title: Projects
+subtitle: Software, consortia, and other organizations I'm currently involved in.
+description: Journal is a stunning personal blog Jekyll theme with an image-focused design.
+featured_image: /images/img/c2c12_rnascope.png
+sidebar_image: /images/img/c2c12_rnascope.png
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="wrap">
+
+		<h2-centered> Software </h2-centered>
+
+		{% for project in site.projects reversed %}
+		{% if project.type == 'software' %}
+			<div class="portfolio-item">
+
+				<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+					<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
+
+					<div class="portfolio-item__content">
+						<div class="portfolio-item__info">
+							<h2 class="portfolio-item__title">{{ project.title }}</h2>
+							<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						</div>
+					</div>
+
+				</a>
+
+			</div>
+			{% endif %}
+
+		{% endfor %}
+
+		<h2-centered> Consortia </h2-centered>
+
+		{% for project in site.projects reversed %}
+		{% if project.type == 'consortia' %}
+			<div class="portfolio-item">
+
+				<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+					<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
+
+					<div class="portfolio-item__content">
+						<div class="portfolio-item__info">
+							<h2 class="portfolio-item__title">{{ project.title }}</h2>
+							<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						</div>
+					</div>
+
+				</a>
+
+			</div>
+			{% endif %}
+
+		{% endfor %}
+
+		<h2-centered> Leadership </h2-centered>
+
+		{% for project in site.projects reversed %}
+		{% if project.type == 'leadership' %}
+			<div class="portfolio-item">
+
+				<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+					<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
+
+					<div class="portfolio-item__content">
+						<div class="portfolio-item__info">
+							<h2 class="portfolio-item__title">{{ project.title }}</h2>
+							<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						</div>
+					</div>
+
+				</a>
+
+			</div>
+			{% endif %}
+
+		{% endfor %}
+
+	</div>
+
+</section>
