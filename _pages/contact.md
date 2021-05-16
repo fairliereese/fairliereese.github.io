@@ -1,7 +1,7 @@
 ---
 title: Contact
-subtitle: Journal comes with a built-in contact form, that's free and easy to set up.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+subtitle: Fill out this form to send me an email. 
+description: Talk 2 me
 featured_image: /images/img/c2c12_rnascope.png
 ---
 
