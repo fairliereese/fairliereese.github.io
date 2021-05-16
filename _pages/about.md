@@ -1,7 +1,7 @@
 ---
 title: Fairlie Reese
 subtitle: Bioinformatic analysis · Bioinformatics software/pipeline development · Isoform expression
-description: A stunning personal blog Jekyll theme with an image-focused design.
+description: About me
 featured_image: /images/img/me_bouganvilla.jpeg
 sidebar_image: /images/img/me_bouganvilla.jpeg
 ---

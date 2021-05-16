@@ -1,7 +1,7 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+description: Ty fam.
 featured_image: /images/img/c2c12_rnascope.png
 
 ---
