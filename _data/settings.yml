@@ -17,7 +17,7 @@ menu_settings:
     - title: 'Projects'
       url: '/projects/'
     - title: 'Publications'
-      url: '/publications/'
+      url: '/publications.html'
     - title: 'About'
       url: '/about'
     # - title: 'Contact'
