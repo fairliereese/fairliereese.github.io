@@ -12,6 +12,6 @@ Swan is a Python library I developed for the visualization and analysis of long-
 
 * [GitHub](https://github.com/mortazavilab/swan_vis)
 * [Documentation](https://freese.gitbook.io/swan/)
-* [Manuscript](https://www.biorxiv.org/content/10.1101/2020.06.09.143024v1)
+* [Manuscript](https://academic.oup.com/bioinformatics/article/37/9/1322/5912931)
 
 ![](/images/img/swan_report.png)
