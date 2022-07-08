@@ -12,3 +12,4 @@ type: consortia
 LRGASP, or the long-read RNA-seq genome annotation assessment project, is a project designed to help assess the effectiveness of different experimental and computational protocols in order to perform a variety of tasks including transcriptome annotation and identification of novel transcripts, transcript expression quantification, and _de novo_ transcriptome assembly.
 
 * [LRGASP Home Page](https://www.gencodegenes.org/pages/LRGASP/)
+* [LRGASP Preprint](https://www.researchsquare.com/article/rs-777702/v1)
