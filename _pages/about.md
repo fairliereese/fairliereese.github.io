@@ -19,7 +19,7 @@ Outside of work, I love to hang out with my kitties, listen to rock music, play 
 
 You can reach me at freese {at} uci.edu.
 
-[CV](https://drive.google.com/file/d/1e3_ZjSo3XPegS8zOL5IIZiS3frFwpm5g/view?usp=sharing)
+[CV](https://drive.google.com/file/d/1ubleg5YBhuiR_36Rm07_dqgF-kz7u7L2/view?usp=sharing)
 
 <div class="gallery" data-columns="3">
 	<img src="/images/img/juney_code.jpeg">
