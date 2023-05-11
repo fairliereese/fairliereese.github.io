@@ -1,6 +1,6 @@
 ---
 title: Fairlie Reese
-subtitle: Bioinformatic analysis · Bioinformatics software/pipeline development · Isoform expression
+subtitle: Bioinformatic analysis · Bioinformatics software/pipeline development · Long-read RNA-seq 
 description: About me
 featured_image: /images/img/me_ccbs_retreat.jpg
 sidebar_image: /images/img/me_ccbs_retreat.jpg
@@ -19,7 +19,7 @@ Outside of work, I love to hang out with my kitties, listen to rock music, play 
 
 You can reach me at freese {at} uci.edu.
 
-[CV](https://drive.google.com/file/d/1ubleg5YBhuiR_36Rm07_dqgF-kz7u7L2/view?usp=sharing)
+[CV](https://drive.google.com/file/d/1F3eY-lYSTbd1A0nSLBplCL_CLrHpGIEz/view?usp=sharing)
 
 <div class="gallery" data-columns="3">
 	<img src="/images/img/juney_code.jpeg">

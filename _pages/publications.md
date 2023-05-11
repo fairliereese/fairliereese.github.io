@@ -2,7 +2,7 @@
 title: Publications
 featured_image: /images/img/c2c12_rnascope.png
 sidebar_image: /images/img/c2c12_rnascope.png
-years: [2022, 2021, 2020, 2019]
+years: [2023, 2022, 2021, 2020, 2019]
 layout: page
 ---
 

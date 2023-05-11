@@ -2,7 +2,7 @@ enable_google_analytics: true
 
 basic_settings:
   site_title: Fairlie Reese
-  site_tagline: Bioinformatic analysis · Bioinformatics software/pipeline development · Isoform expression
+  site_tagline: Bioinformatic analysis · Bioinformatics software/pipeline development · Long-read RNA-seq
   favicon_image: /images/img/favicon.png
 
 header_settings:
