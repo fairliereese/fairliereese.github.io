@@ -20,19 +20,25 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/img/favicon.png">
-	<title>Fairlie Reese – Fairlie Reese</title>
-	<meta name="description" content="Who I am and what I do">
+	<title>cerberus – Fairlie Reese</title>
+	<meta name="description" content="
+
+">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Fairlie Reese – Fairlie Reese">
-	<meta name="twitter:description" content="Who I am and what I do">
-	<meta name="twitter:image:src" content="/images/img/c2c12_rnascope.png">
+	<meta name="twitter:title" content="cerberus – Fairlie Reese">
+	<meta name="twitter:description" content="
+
+">
+	<meta name="twitter:image:src" content="/images/img/cerberus.png">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Fairlie Reese – Fairlie Reese" />
-	<meta property="og:description" content="Who I am and what I do" />
-	<meta property="og:image" content="/images/img/c2c12_rnascope.png" />
+	<meta property="og:title" content="cerberus – Fairlie Reese" />
+	<meta property="og:description" content="
+
+" />
+	<meta property="og:image" content="/images/img/cerberus.png" />
 
 	
 	<!-- Font Embed Code -->
@@ -66,12 +72,12 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="" data-page-url="/">
+<body class="loading ajax-loading" data-site-url="" data-page-url="/project/cerberus">
 
 
 	<header class="header">
 
-	<div class="header-image header-image--on" style="background-image: url(/images/img/c2c12_rnascope.png);"></div>
+	<div class="header-image header-image--on" style="background-image: url(/images/img/cerberus.png);"></div>
 	<div class="header-image"></div>
 
 	<div class="header-overlay"></div>
@@ -185,79 +191,42 @@
 
 	<div class="page">
 
-		<div class="page__content" data-page-title="Fairlie Reese – Fairlie Reese" data-image="/images/img/c2c12_rnascope.png">
+		<div class="page__content" data-page-title="cerberus – Fairlie Reese" data-image="/images/img/cerberus.png">
 
-			<section class="blog single">
-
+			<section class="intro">
 	<div class="wrap">
 
-		
-
-		<article class="blog-post">
-
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="/blog/creating-pip-lib">Creating a PyPi library</a></h2>
-				<p class="blog-post__subtitle">06 July 2022</p>
-			</div>
-
-			
-			<a href="/blog/creating-pip-lib" class="blog-post__image" style="background-image: url(/images/img/pip.png);"></a>
-			
-
-			<div class="blog-post__content">
-				<p>Creating a pip installable python library</p>
-				<p><a href="/blog/creating-pip-lib" class="button">Read More</a>
-			</div>
-
-		</article>
-
-		
-
-		<article class="blog-post">
-
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="/blog/various-talon-swan">Various long-read RNA-seq tutorials</a></h2>
-				<p class="blog-post__subtitle">05 July 2022</p>
-			</div>
-
-			
-			<a href="/blog/various-talon-swan" class="blog-post__image" style="background-image: url(/images/img/tcf4.png);"></a>
-			
-
-			<div class="blog-post__content">
-				<p>Tutorials for analyzing long-read RNA-seq data</p>
-				<p><a href="/blog/various-talon-swan" class="button">Read More</a>
-			</div>
-
-		</article>
-
-		
-
-		<article class="blog-post">
-
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="/blog/pysam-multithreading">Pysam multithreading</a></h2>
-				<p class="blog-post__subtitle">13 May 2020</p>
-			</div>
-
-			
-			<a href="/blog/pysam-multithreading" class="blog-post__image" style="background-image: url(/images/img/binary.png);"></a>
-			
-
-			<div class="blog-post__content">
-				<p>Multithreading sam to bam compression with pysam</p>
-				<p><a href="/blog/pysam-multithreading" class="button">Read More</a>
-			</div>
-
-		</article>
-
-		
+		<h1>cerberus</h1>
+		<p>Creating and visualizing more comprehensive transcriptome annotations</p>
 
 	</div>
 
 </section>
 
+<section class="single">
 
+	<div class="wrap">
+
+		<p><img src="/images/img/cerberus.png" alt="" /></p>
+
+<p>Cerberus is a set of tools used to integrate transcriptome information from a variety of input sources to create comprehensive transcriptome annotations. It can parse BED regions for 5’ and 3’ ends of transcripts and GTF files for unique annotated intron chains, and integrate them all into one collective source. This source can then be used to convert existing GTF transcriptomes to their cerberus version.</p>
+
+<p>Cerberus transcriptomes are directly compatible with <a href="https://github.com/mortazavilab/swan_vis">Swan</a>, which can detect the annotated 5’ / 3’ ends and intron chains from cerberus and quantify expression of each of these features.</p>
+
+<p>In the near future, tools to visualize transcriptional diversity based on each gene’s 5’ end, intron chain, and 3’ end diversity will be incorporated.</p>
+
+<ul>
+  <li><a href="https://github.com/fairliereese/cerberus">GitHub</a></li>
+</ul>
+
+<p><img src="/images/img/cerberus_triplet_density.png" alt="" /></p>
+
+<p><img src="/images/img/cerberus_triplet_scatter.png" alt="" /></p>
+
+
+	</div>
+
+</section>
 
 
 		</div>
