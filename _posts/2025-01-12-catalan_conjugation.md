@@ -19,9 +19,9 @@ For vocabulary acquisition, I've been using [Anki](https://ankiweb.net/), which 
 This is an example of how the cards look:
 <!-- ![](/images/img/red_rock.jpeg) -->
 
-<img src="/images/img/ex_2.jpeg" alt="Front of card" width="300"/>  
+<img src="/images/img/card_ex_2.jpeg" alt="Front of card" width="300"/>  
 
-<img src="/images/img/ex_1.jpeg" alt="Back of card" width="300"/>
+<img src="/images/img/card_ex_1.jpeg" alt="Back of card" width="300"/>
 
 ## Parsing the Spanish conjugation deck
 
